@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Anton|Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Anton|Poppins&display=swap');
 /* #Primary
 ================================================== */
 
@@ -771,11 +771,12 @@ a:hover
 	}
 	.section-paragraph
 	{
-		font-size:1rem;
+		font-size:1.5rem;
 		font-weight:normal;
 		letter-spacing:2px;
-		line-height:25px;
-		margin:0px
+		line-height:40px;
+		margin:0px;
+		
 	}
 	.card-deck .card
 	{
@@ -788,11 +789,11 @@ a:hover
 	}
 	.section-header-xs
 	{
-		font-size:14px;
+		font-size:20px;
 	}
 	.section-header-small
 	{
-		font-size:22px;
+		font-size:40px;
 		
 	}
 	.info-card .card-text
@@ -816,8 +817,10 @@ a:hover
 	}
 	.btn-rounded-nav
 	{
-		margin:20px 0px;
-		width:170px;
+		margin:30px 0px;
+		width:300px;
+		line-height:45px;
+		font-size:30px;
 	}
 	.navbar-light .navbar-nav .nav-link
 	{
@@ -852,14 +855,45 @@ a:hover
 	}
 	.info-card .card-paragraph
 	{
-		font-size:24px;
+		font-size:30px;
 		padding:20px 0px;
-		line-height:35px;
+		line-height:45px;
 	}
 	.info-card .small-text
 	{
 		font-size:30px;
+		letter-spacing:5px;
 		width:80%;
+	}
+	.info-card .card-img-right
+	{
+		padding:15px 30px;
+	}
+	.helpful-ul li
+	{
+		font-size:30px;
+		line-height:70px;
+	}
+	.helpful-ul li:before
+	{
+		margin-left:-30px;
+		margin-right:10px;
+	}
+	.sideways li a
+	{
+		font-size:20px;
+		letter-spacing:3px;
+	}
+	.panel-default>.panel-heading a
+	{
+		font-size:30px;
+		font-weight:bold;
+		
+	}
+	.panel-body
+	{
+		font-size:24px;
+		line-height:45px;
 	}
 	.card-small .small-text
 	{
@@ -877,4 +911,9 @@ a:hover
 	.tab-content
 	{
 		margin-top:50px;
+	}
+	.section
+	{
+		padding:50px 0px;
+	}
 }
