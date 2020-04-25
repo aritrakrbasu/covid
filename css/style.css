@@ -596,15 +596,28 @@ a:hover
 }
 .sideways li:after
 {
-	font-family: "Font Awesome 5 Free"; 
-	font-weight: 900; 
-	content: "\f067";
+	content:url('../assets/arrow_2.png');
 	color:#4ea1ff;
 	position:absolute;
 	right:10px;
+	margin-top:-50px;
+	display:block;
 }
 
+.sideways li a.show
+{
+	color:#4ea1ff;
+}
 
+.sideways li a.show > .sideways  li
+{
+	content:url('../assets/arrow.png');
+	color:#4ea1ff;
+	position:absolute;
+	right:10px;
+	margin-top:-50px;
+	display:block;
+}
 /* */
 .panel-title
 {
@@ -756,6 +769,7 @@ a:hover
 	.section-paragraph
 	{
 		font-size:12px;
+		margin:0px
 	}
 	.section-header-xs
 	{
@@ -764,6 +778,7 @@ a:hover
 	.section-header-small
 	{
 		font-size:22px;
+		
 	}
 	.info-card .card-text
 	{
@@ -783,6 +798,13 @@ a:hover
 	{
 		height:140px;
 	}
-	
-	
+	.btn-rounded-nav
+	{
+		margin:20px 0px;
+		width:170px;
+	}
+	.navbar-light .navbar-nav .nav-link
+	{
+		font-size:20px;
+	}
 }
