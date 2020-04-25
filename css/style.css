@@ -173,6 +173,7 @@ a:hover
     position: relative;
 	width: 100%;
 	display: block;
+	padding:150px 0px;
 }
 .full-height {
     height: 100vh;
@@ -381,6 +382,15 @@ a:hover
 	width:80%;
 	margin:0px auto;
 }
+.card-deck-3-sm .info-card
+{
+	width:370px;
+	height:120px;
+}
+.card-deck-3-sm .info-card .card-body
+{
+	padding:15px;
+}
 .info-card
 {
 	
@@ -407,7 +417,18 @@ a:hover
 	margin:0px auto;
 	background:#111111;
 	color:#fff;
+	font-family: Roboto;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
 	
+}
+.about-section
+{
+	padding-left:65px !important;
+	padding-right:65px !important;
 }
 
 .info-card .card-img
@@ -455,7 +476,7 @@ a:hover
 }
 .section
 {
-	padding:100px 40px;
+	padding:100px 0px;
 }
 .info-card .card-img-right
 {
@@ -699,8 +720,9 @@ a:hover
 {
 	border-bottom:10px solid #4ea1ff;
 	background:#fff;
-	height:auto;
+	height:190px;
 	width:100%;
+	padding:0px 50px;
 }
 .blog-card .card-text
 {
