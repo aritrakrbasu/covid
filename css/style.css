@@ -850,7 +850,7 @@ a:hover
 	}
 	.custom-container
 	{
-		width:90%;
+		width:80%;
 	}
 	.card-deck {
 	display: grid;  
@@ -937,5 +937,15 @@ a:hover
 	.section
 	{
 		padding:50px 0px;
+	}
+	.card-deck-3-sm > .info-card
+	{
+		width:auto !important;
+		margin:0px 10px;
+	}
+	.about-section
+	{
+		padding-left:0px !important;
+		padding-right:0px !important;
 	}
 }
